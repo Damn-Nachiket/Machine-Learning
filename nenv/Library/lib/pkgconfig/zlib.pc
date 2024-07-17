@@ -1,0 +1,13 @@
+prefix=D:/Udemy Machine Learning/Machine-Learning/nenv/Library
+exec_prefix=D:/Udemy Machine Learning/Machine-Learning/nenv/Library
+libdir=D:/Udemy Machine Learning/Machine-Learning/nenv/Library/lib
+sharedlibdir=D:/Udemy Machine Learning/Machine-Learning/nenv/Library/lib
+includedir=D:/Udemy Machine Learning/Machine-Learning/nenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
